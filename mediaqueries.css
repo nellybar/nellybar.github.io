@@ -1,122 +1,99 @@
-@media screen and (max-width: 1400px) {
-  body {
-    margin: 2rem;
-  }
+@media screen and(max - width : 1400 px) {
+    body {
+        margin : 2 rem;
+    }
 
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
+    #profile {
+        height : 83 vh;
+        margin - bottom : 6 rem;
+    }.about - containers {
+        flex - wrap : wrap;
+    }
+    #contact,
+    #projects {
+        height : fit - content;
+    }
 }
 
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
-    display: none;
-  }
-  #hamburger-nav {
-    display: flex;
-  }
-  nav {
-    padding: 0 5%;
-  }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-  #profile,
-  .section-container {
-    display: block;
-  }
-  .arrow {
-    display: none;
-  }
-  section,
-  .section-container {
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
-  }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .section__pic-container-about {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
-    margin-top: 0;
-  }
+@media screen and(max - width : 1200 px) {
+    #desktop - nav {
+        display : none;
+    }
+    #hamburger - nav {
+        display : flex;
+    }
+    nav {
+        padding : 0 5 %;
+    }
+    #experience,.experience - details - container {
+        margin - top : 2 rem;
+    }
+    #profile,.section - container {
+        display : block;
+    }.arrow {
+        display : none;
+    }
+    section,.section - container {
+        height : fit - content;
+    }
+    section {
+        margin : 0 5 %;
+    }.section__pic - container {
+        width : 275 px;
+        height : 275 px;
+        margin : 0 auto 2 rem;
+    }.section__pic - container - about {
+        width : 275 px;
+        height : 275 px;
+        margin : 0 auto 2 rem;
+    }.about - containers {
+        margin - top : 0;
+    }
 }
 
-@media screen and (max-width: 600px) {
-  .theme-toggle {
-    padding: 0.45rem 0.6rem ;
-    margin: 1rem;
-  }
-  .theme-toggle__text {
-    display: none;
-  }
-  #contact,
-  footer {
-    height: 40vh;
-  }
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
-  }
-  article {
-    font-size: 1rem;
-  }
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-    flex-wrap: wrap;
-  }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-  }
-  .section__text__p2 {
-    font-size: 1.25rem;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  .text-container {
-    text-align: justify;
-  }
+@media screen and(max - width : 600 px) {.theme - toggle {
+        padding : 0.45 rem 0.6 rem;
+        margin : 1 rem;
+    }.theme - toggle__text {
+        display : none;
+    }
+    #contact,
+    footer {
+        height : 40 vh;
+    }
+    #profile {
+        height : 83 vh;
+        margin - bottom : 0;
+    }
+    article {
+        font - size : 1 rem;
+    }
+    footer nav {
+        height: fit - content;
+        margin - bottom: 2 rem;
+    }.about - containers,.contact - info - upper - container,.btn - container {
+        flex - wrap : wrap;
+    }.contact - info - container {
+        margin : 0;
+    }.contact - info - container p,.nav - links li a {
+        font - size: 1 rem;
+    }.experience - sub - title {
+        font - size : 1.25 rem;
+    }.logo {
+        font - size : 1.5 rem;
+    }.nav - links {
+        flex - direction : column;
+        gap : 0.5 rem;
+        text - align : center;
+    }.section__pic - container {
+        width : auto;
+        height : 46 vw;
+        justify - content : center;
+    }.section__text__p2 {
+        font - size : 1.25 rem;
+    }.title {
+        font - size : 2 rem;
+    }.text - container {
+        text - align : justify;
+    }
 }
