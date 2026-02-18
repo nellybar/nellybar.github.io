@@ -742,6 +742,140 @@ article .icon {
   border-color: var(--surface-border-color);
 }
 
+/* Marketing card (centered, wider) */
+.marketing-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.marketing-card {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: calc(var(--project-card-width, 280px) * 2 + 2rem);
+  height: var(--project-card-height, 320px);
+  border-radius: 1.5rem;
+}
+
+/* Digital marketing page grid */
+#marketing .title {
+  margin-bottom: 3rem;
+} 
+
+.marketing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.marketing-grid .details-container {
+  flex: 0 1 280px;
+}
+
+/* Project card sizing for #projects section only (keeps regular cards unchanged elsewhere) */
+#projects {
+  --project-card-width: 280px;
+  --project-card-height: 320px;
+}
+
+#projects .about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+#projects .about-containers > .details-container {
+  flex: 0 1 var(--project-card-width);
+  max-width: var(--project-card-width);
+  height: var(--project-card-height);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Regular project card image wrapper and image sizing */
+#projects .about-containers > .details-container .article-container {
+  flex: 0 0 auto;
+  aspect-ratio: 1 / 1;
+  max-height: 65%;
+  display: flex;
+  overflow: hidden;
+}
+
+#projects .about-containers > .details-container .project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ensure regular project card buttons sit at the bottom and are centered */
+#projects .about-containers > .details-container .btn-container {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* match existing button gap */
+}
+
+/* Marketing card internal layout */
+.marketing-card .article-container {
+  flex: 0 0 45%;
+  height: 100%;
+  display: flex;
+}
+
+.marketing-card .article-container .project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.marketing-card .marketing-content {
+  flex: 1 1 55%;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.marketing-card .marketing-content .project-title {
+  margin: 0;
+}
+
+.marketing-card .marketing-content .btn-container {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 760px) {
+  .marketing-card {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .marketing-card .article-container {
+    flex: 0 0 auto;
+    height: auto;
+  }
+
+  .marketing-card .article-container .project-img {
+    border-radius: 2rem;
+    height: 220px;
+  }
+
+  #projects .about-containers > .details-container {
+    flex: 0 1 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 /* CONTACT */
 
 #contact {
@@ -787,6 +921,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;

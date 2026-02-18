@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Digital Marketing Projects - Nelly Barrera</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="mediaqueries.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <a class="logo" href="./index.html">Nelly Barrera</a>
+        <div class="nav-actions">
+            <ul class="nav-links">
+                <li><a href="./index.html#about">About</a></li>
+                <li><a href="./index.html#experience">Experience</a></li>
+                <li><a href="./index.html#projects">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <button aria-label="Switch to dark theme" class="theme-toggle" data-theme-toggle type="button">
+                <span aria-hidden="true" class="theme-toggle__icon">🌙</span>
+                <span class="theme-toggle__text">Dark mode</span>
+            </button>
+        </div>
+    </nav>
+    <nav id="hamburger-nav" class="mobile-nav" aria-label="Mobile navigation">
+        <a class="logo" href="./index.html">Nelly Barrera</a>
+        <div class="nav-actions">
+            <button class="mobile-nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                <span class="sr-only">Toggle navigation menu</span>
+                <svg class="mobile-nav__icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                    viewBox="0 0 50 50" aria-hidden="true" focusable="false">
+                    <title>Toggle menu</title>
+                    <g>
+                        <line class="mobile-nav__icon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+                        <line class="mobile-nav__icon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                        <line class="mobile-nav__icon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+                        <circle class="mobile-nav__icon-circle" r="23" cx="25" cy="25" />
+                    </g>
+                </svg>
+            </button>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch theme">
+                <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+                <span class="theme-toggle__text">Dark mode</span>
+            </button>
+        </div>
+        <div class="mobile-nav__overlay" hidden>
+            <div class="mobile-nav__splash" aria-hidden="true"></div>
+            <ul class="mobile-nav__menu" id="mobile-menu" tabindex="-1">
+                <li class="mobile-nav__item"><a class="mobile-nav__link" href="./index.html#about">About</a></li>
+                <li class="mobile-nav__item"><a class="mobile-nav__link" href="./index.html#experience">Experience</a>
+                </li>
+                <li class="mobile-nav__item"><a class="mobile-nav__link" href="./index.html#projects">Projects</a></li>
+                <li class="mobile-nav__item"><a class="mobile-nav__link" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="marketing">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Graphic Design Projects</h1>
+        <div class="experience-details-container">
+            <div class="marketing-grid">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img alt="Valentines Day Flyer" class="project-img" src="./assets/Valentines-Flyer.png" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Valentine's Day Flyer</h2>
+                    <p style="margin:0.25rem 1rem; color:var(--muted-text-color)">Promotional flyer for Valentine's Day jewelry campaign.</p>
+                    <!-- <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('#', '_blank')">Details</button>
+                    </div>-->
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img alt="Book Cover Design" class="project-img" src="./assets/Twisted-Love-Book-Cover.png" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Book Cover Design</h2>
+                    <p style="margin:0.25rem 1rem; color:var(--muted-text-color)">Creative design for a romantic fiction novel.</p>
+                    <!-- <div class="btn-container">
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('#', '_blank')">Details</button>
+                    </div>-->
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img alt="Mexico City Pamphlet" class="project-img" src="./assets/MX-Pamphlet.png" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Mexico City Pamphlet</h2>
+                    <p style="margin:0.25rem 1rem; color:var(--muted-text-color)">Promotional pamphlet for tourists in Mexico City.</p>
+                    <!-- <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('#', '_blank')">Details</button>
+                    </div>-->
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img alt="Party Time Media Kit" class="project-img" src="./assets/PR-Media-Kit.png" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Party Time Media Kit</h2>
+                    <p style="margin:0.25rem 1rem; color:var(--muted-text-color)">Comprehensive media kit for a business.</p>
+                    <!-- <div class="btn-container">
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('#', '_blank')">Details</button>
+                    </div>-->
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img alt="Robot Design" class="project-img" src="./assets/Robot.png" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Robot Design</h2>
+                    <p style="margin:0.25rem 1rem; color:var(--muted-text-color)">Creative design for a robotic product.</p>
+                    <!-- <div class="btn-container">
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('#', '_blank')">Details</button>
+                    </div>-->
+                </div>
+
+            </div>
+        </div>
+        <img alt="Arrow icon" class="icon arrow" onclick="location.href='./index.html#projects'"
+            src="./assets/arrow.png" />
+    </section>
+
+    <div id="footer-root"></div>
+    <script src="/src/main.jsx" type="module"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
